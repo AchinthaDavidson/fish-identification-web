@@ -678,71 +678,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* About Us Section */}
-      <motion.section
-        id="about"
-        className="py-24 bg-white"
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={fadeInUp}
-      >
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            About Us
-          </h2>
-          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            <motion.div className="p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100" variants={fadeInUp} whileHover={{ scale: 1.04 }}>
-              <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Mission</h3>
-              <p className="text-gray-600 leading-relaxed">
-                To develop an advanced fish identification system that helps researchers, 
-                marine biologists, and enthusiasts accurately identify and study fish species.
-              </p>
-            </motion.div>
-            <motion.div className="p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100" variants={fadeInUp} whileHover={{ scale: 1.04 }}>
-              <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Vision</h3>
-              <p className="text-gray-600 leading-relaxed">
-                To become the leading platform for fish species identification and 
-                contribute to marine life conservation through technology.
-              </p>
-            </motion.div>
-          </div>
-        </div>
-      </motion.section>
-
-      {/* Our Team Section */}
-      <motion.section
-        id="team"
-        className="py-24 bg-gradient-to-b from-white to-gray-50"
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={fadeInUp}
-      >
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            Our Team
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 max-w-5xl mx-auto">
-            <div className="flex flex-col items-center">
-              <Image src={Member1} alt="Member 1" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Imandi Aluthge</h4>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src={Member2} alt="Member 2" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Ashvini Wegodapola</h4>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src={Member3} alt="Member 3" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Achintha Wijethunga</h4>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src={Member4} alt="Member 4" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Chalith Bandara</h4>
-            </div>
-          </div>
-        </div>
-      </motion.section>
+     
 
       {/* Project Documents Section */}
       <motion.section
@@ -894,6 +830,71 @@ export default function Home() {
                 </div>
               </li>
             </ol>
+          </div>
+        </div>
+      </motion.section>
+       {/* About Us Section */}
+      <motion.section
+        id="about"
+        className="py-24 bg-white"
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={fadeInUp}
+      >
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+            About Us
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            <motion.div className="p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100" variants={fadeInUp} whileHover={{ scale: 1.04 }}>
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Mission</h3>
+              <p className="text-gray-600 leading-relaxed">
+                To develop an advanced fish identification system that helps researchers, 
+                marine biologists, and enthusiasts accurately identify and study fish species.
+              </p>
+            </motion.div>
+            <motion.div className="p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100" variants={fadeInUp} whileHover={{ scale: 1.04 }}>
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Vision</h3>
+              <p className="text-gray-600 leading-relaxed">
+                To become the leading platform for fish species identification and 
+                contribute to marine life conservation through technology.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </motion.section>
+
+      {/* Our Team Section */}
+      <motion.section
+        id="team"
+        className="py-24 bg-gradient-to-b from-white to-gray-50"
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={fadeInUp}
+      >
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+            Our Team
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 max-w-5xl mx-auto">
+            <div className="flex flex-col items-center">
+              <Image src={Member1} alt="Member 1" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
+              <h4 className="text-xl font-semibold text-gray-900">Imandi Aluthge</h4>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image src={Member2} alt="Member 2" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
+              <h4 className="text-xl font-semibold text-gray-900">Ashvini Wegodapola</h4>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image src={Member3} alt="Member 3" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
+              <h4 className="text-xl font-semibold text-gray-900">Achintha Wijethunga</h4>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image src={Member4} alt="Member 4" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
+              <h4 className="text-xl font-semibold text-gray-900">Chalith Bandara</h4>
+            </div>
           </div>
         </div>
       </motion.section>
