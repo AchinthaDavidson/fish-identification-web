@@ -457,12 +457,11 @@ export default function Home() {
                       <span className="text-blue-600 font-semibold">1</span>
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Marine Species Identification</h4>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Eye Disease Detection</h4>
                       <p className="text-gray-600">
-                        Train a Vision Transformer (ViT)-based model to recognize marine species, 
-                        particularly billfish and sharks, from full or partial images under varying 
-                        environmental conditions. The model will be trained using a diverse dataset collected 
-                        from NARA and local fisheries.
+                        Train a Vision Transformer (ViT) model to accurately identify common eye diseases such as cataract, 
+                        conjunctivitis, and uveitis from ocular images. The model will be trained using a labeled dataset of 
+                        real-world eye images under varying lighting and image quality conditions.
                       </p>
                     </div>
                   </div>
@@ -474,11 +473,10 @@ export default function Home() {
                       <span className="text-blue-600 font-semibold">2</span>
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Size Estimation from Partial Length</h4>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Eye Health Monitoring and Predictive Risk Assessment</h4>
                       <p className="text-gray-600">
-                        Develop machine learning algorithms that can predict the total length of fish (e.g., 
-                        billfish) using incomplete lengths, which is essential for monitoring quotas, enforcing 
-                        regulations, and supporting marine research.
+                        Implement a YOLOv8-based model to detect eye redness and monitor user screen usage patterns. The system will generate personalized break reminders. 
+                        Develop a K-Means Clustering algorithm to classify users into high, medium, and low-risk categories
                       </p>
                     </div>
                   </div>
@@ -490,12 +488,10 @@ export default function Home() {
                       <span className="text-blue-600 font-semibold">3</span>
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Freshness and Quality Assessment</h4>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Relaxation and Recovery Techniques</h4>
                       <p className="text-gray-600">
-                        Design a deep learning model that performs multi-attribute freshness assessment in 
-                        real time by analyzing critical features such as gill redness and eye reflectivity. This 
-                        model will utilize a hybrid of CNN and Vision Transformer architectures with 
-                        attention mechanisms for localized and global feature extraction.
+                        Design a CNN + LSTM model to analyze recorded eye exercise videos, determine correctness, 
+                        and offer guided feedback. This ensures proper exercise execution and supports effective eye recovery and relaxation.
                       </p>
                     </div>
                   </div>
