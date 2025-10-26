@@ -46,7 +46,7 @@ const heroImage = {
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home");
   // Slideshow state
-  const fishImages = [ Fish1, Fish2, Fish3];
+  const fishImages = [ Fish1, Fish2, Fish3, Fish4];
   const [currentFish, setCurrentFish] = useState(0);
 
   // Slideshow effect
