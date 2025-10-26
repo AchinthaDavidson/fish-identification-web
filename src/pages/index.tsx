@@ -228,77 +228,71 @@ export default function Home() {
           <motion.div className="max-w-4xl mx-auto space-y-8 text-gray-600 leading-relaxed" variants={fadeInUp}>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
               <p className="text-lg mb-6">
-                In recent years, significant attention has been directed toward the use of image processing 
-                and machine learning techniques in automating fish identification. Researchers have 
-                explored deep learning approaches to enhance accuracy in species recognition, especially where traditional manual methods are insufficient.
+                In recent years, considerable research attention has focused on the use of artificial intelligence (AI) and 
+                computer vision in automating eye disease detection and improving preventive healthcare. Various studies have 
+                demonstrated the potential of deep learning models in ophthalmology, though challenges such as data scarcity, 
+                high computational requirements, and lack of integrated preventive systems remain.
               </p>
               <div className="space-y-6">
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">Deep Learning Approaches</h3>
                   <p className="text-gray-700">
-                    Zhang et al. (2020) proposed a convolutional neural network (CNN) for fish classification, which achieved high 
-                    accuracy but relied heavily on large, annotated datasets. While effective in controlled 
-                    environments, these models often perform poorly in field conditions with occlusions, low 
-                    lighting, or partial remains.
+                    Researchers have applied Convolutional Neural Networks (CNNs) for detecting eye diseases like diabetic 
+                    retinopathy and glaucoma with high accuracy. However, CNNs primarily capture local spatial features 
+                    and often struggle with global visual relationships, limiting their performance in complex medical image classification tasks.
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Vision Transformers</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Vision Transformers (ViT)</h3>
                   <p className="text-gray-700">
-                    Li et al. (2021) introduced Vision Transformers (ViTs) for visual recognition tasks, showing improved performance over CNNs in 
-                    complex image classification scenarios. However, ViTs typically require large-scale 
-                    datasets and high computational resources, limiting their deployment in low-power 
-                    devices or mobile platforms commonly used in fisheries monitoring.
+                    Recent studies highlight Vision Transformers (ViTs) as a powerful alternative to CNNs in medical imaging. 
+                    ViTs effectively capture global dependencies in ocular images, improving detection accuracy for diseases 
+                    such as cataract and conjunctivitis. Despite their superior performance, ViTs require large datasets and high 
+                    computational power, which can limit deployment in mobile environments.
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Object Detection Methods</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Object Detection Models (YOLOv8)</h3>
                   <p className="text-gray-700">
-                    Nguyen et al. (2019) applied YOLO-based object detection to identify shark fins in 
-                    images to assist in combatting illegal wildlife trade. Their method proved effective for 
-                    detecting distinctive shapes like fins but struggled when dealing with species that exhibit 
-                    high morphological similarity.
+                    YOLO-based models have proven efficient for real-time image detection tasks. The YOLOv8 architecture has 
+                    been applied in eye image analysis to detect redness and abnormal conditions, offering high-speed 
+                    detection suitable for mobile applications. Its ability to combine localization and classification 
+                    in one pass makes it ideal for continuous eye monitoring.
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Traditional Measurement Methods</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Predictive Health Modeling</h3>
                   <p className="text-gray-700">
-                    Traditional methods for estimating fish size have relied on morphometric conversions 
-                    using physical measurements. For instance, in the case of the Indo-Pacific Sailfish, 
-                    researchers like Haputhantri and Perera derived formulas converting specific body part 
-                    lengths—such as the Pectoral Dorsal Length (PDL)—into full-body lengths like Lower 
-                    Jaw to Tail Fork Length (LJTL).
+                    Machine learning techniques like K-Means Clustering have been widely used for health risk prediction and 
+                    patient segmentation. These models help identify hidden behavioral patterns and classify users into different 
+                    risk levels, allowing personalized preventive measures in digital health systems.
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Computer Vision Applications</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Rehabilitation and Exercise Monitoring</h3>
                   <p className="text-gray-700">
-                    Fish size estimation using computer vision has gained traction as an alternative to manual 
-                    measurement. Monkman et al. employed Region-based CNNs (R-CNN) to estimate fish 
-                    lengths from images, demonstrating promising results even under variable lighting and occlusion.
+                    Recent research has explored CNN + LSTM hybrid architectures for activity recognition and motion analysis. 
+                    In the context of eye health, this combination allows systems to evaluate exercise correctness by capturing 
+                    both spatial and temporal information from video data, promoting effective recovery practices.
                   </p>
                 </div>
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Mobile Applications</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Mobile Health Applications (mHealth)</h3>
                   <p className="text-gray-700">
-                    Mobile-based fish identification apps such as FishID and AquaSnap utilize deep learning 
-                    models to offer real-time recognition and basic measurements. These applications have 
-                    made significant progress in simplifying field data collection, reducing reliance on 
-                    manual logs and expert knowledge.
+                    Mobile-based healthcare apps integrating AI have gained significant popularity due to their accessibility and 
+                    usability. Studies show that combining on-device AI inference with cloud-based processing enables real-time 
+                    detection, user engagement, and remote health monitoring—bridging the gap between clinical diagnosis and self-care.
                   </p>
                 </div>
               </div>
               <div className="mt-8 p-6 bg-blue-50 rounded-xl border border-blue-100">
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">Current Limitations</h3>
                 <p className="text-gray-700">
-                  While these existing systems and approaches have advanced the field of fish 
-                  identification and measurement, several limitations persist. High dependency on large 
-                  labeled datasets, poor generalizability in diverse field conditions, computational 
-                  constraints for mobile use, and limited species coverage continue to hinder their 
-                  effectiveness. Additionally, the lack of integrated solutions that handle both species 
-                  identification and accurate size estimation from partial remains presents a gap in meeting 
-                  the practical demands of fisheries enforcement and stock management in countries like 
-                  Sri Lanka.
+                  While existing AI systems have advanced automated eye disease detection, several limitations persist. 
+                  Models often rely on large, well-annotated datasets, which are not always available in diverse populations. 
+                  Moreover, few studies integrate detection, prediction, and prevention within a single platform. 
+                  Real-time mobile solutions, behavioral data integration, and recovery guidance remain underexplored—highlighting 
+                  the need for comprehensive, adaptive, and accessible systems for proactive eye health management.
                 </p>
               </div>
             </div>
