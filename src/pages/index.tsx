@@ -322,10 +322,9 @@ export default function Home() {
           <motion.div className="max-w-4xl mx-auto space-y-8" variants={fadeInUp}>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border border-blue-100">
               <p className="text-lg text-gray-700 mb-8">
-                Despite significant advancements in image-based fish species identification and size 
-                estimation, several key gaps remain in the current body of research—particularly in 
-                applying these technologies to practical, real-world scenarios like those found in Sri 
-                Lanka's fisheries sector.
+                Despite major advancements in AI-driven healthcare systems, several gaps remain in the current research 
+                on automated eye disease detection and prevention—particularly in creating accessible, real-time, 
+                and personalized mobile solutions suitable for everyday use.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300">
@@ -333,12 +332,11 @@ export default function Home() {
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                       <span className="text-blue-600 font-semibold">1</span>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Narrow Species Coverage</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">Limited Disease Coverage</h3>
                   </div>
                   <p className="text-gray-600">
-                    Many existing studies focus on a limited number of commonly available and easily distinguishable fish species. 
-                    There is insufficient focus on ornamental and demersal species, which are of high economic value in 
-                    Sri Lanka but more difficult to distinguish due to subtle morphological features.
+                    Most existing systems focus only on detecting a few eye conditions such as cataract or diabetic retinopathy, 
+                    with limited attention to other common diseases like uveitis and conjunctivitis that affect a wide population.
                   </p>
                 </div>
 
@@ -347,12 +345,11 @@ export default function Home() {
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                       <span className="text-blue-600 font-semibold">2</span>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Mobile Solutions Gap</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">Lack of Mobile-Based Solutions</h3>
                   </div>
                   <p className="text-gray-600">
-                    Most current models are developed and tested in controlled environments using high-performance 
-                    hardware, limiting their practical application in field conditions. Tools optimized 
-                    for real-time performance on mobile devices are largely absent.
+                    Many AI models for eye disease detection are built for clinical or desktop use, requiring high-end hardware. 
+                    Real-time, mobile-optimized solutions that can function effectively on smartphones are still scarce.
                   </p>
                 </div>
 
@@ -361,11 +358,11 @@ export default function Home() {
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                       <span className="text-blue-600 font-semibold">3</span>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Fragmented Systems</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">Fragmented Health Management Systems</h3>
                   </div>
                   <p className="text-gray-600">
-                    Fish species identification and size estimation are typically addressed as separate tasks using distinct tools and models. 
-                    This fragmentation reduces operational efficiency and accuracy, particularly in fast-paced field environments.
+                    Current systems mainly concentrate on disease detection without integrating prevention, risk prediction, 
+                    and recovery guidance into a unified platform, leading to incomplete eye health management.
                   </p>
                 </div>
 
@@ -374,12 +371,11 @@ export default function Home() {
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                       <span className="text-blue-600 font-semibold">4</span>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Partial Image Limitations</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">Insufficient Real-Time Feedback</h3>
                   </div>
                   <p className="text-gray-600">
-                    In real fisheries scenarios, fish specimens are often cut into parts, especially large species like billfish. 
-                    Existing systems primarily rely on full-body images, with limited research into identifying species and estimating 
-                    size from partial images.
+                    Existing applications often fail to provide immediate, personalized feedback to users regarding their eye 
+                    health, exercise accuracy, or required interventions, reducing user engagement and effectiveness.
                   </p>
                 </div>
 
@@ -388,11 +384,11 @@ export default function Home() {
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                       <span className="text-blue-600 font-semibold">5</span>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Low Adaptability</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">Limited Data Diversity</h3>
                   </div>
                   <p className="text-gray-600">
-                    Traditional CNN-based models depend on large, well-labeled datasets, which are often unavailable for rare or region-specific 
-                    species. This results in poor adaptability and increased retraining requirements.
+                    AI models are often trained on limited datasets collected under controlled conditions, which limits their 
+                    ability to generalize across diverse populations, lighting environments, and image qualities.
                   </p>
                 </div>
 
@@ -401,12 +397,11 @@ export default function Home() {
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                       <span className="text-blue-600 font-semibold">6</span>
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900">Legal Compliance Integration</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">Lack of Preventive and Behavioral Integration</h3>
                   </div>
                   <p className="text-gray-600">
-                    There is a distinct lack of tools that connect biological identification with regulatory frameworks. 
-                    This is especially important for enforcing export laws and international trade regulations 
-                    concerning protected species like sharks and billfish.
+                    Few systems combine disease detection with behavioral insights—such as screen usage, blinking rate, or 
+                    environmental lighting—to provide predictive risk assessment and preventive recommendations.
                   </p>
                 </div>
               </div>
