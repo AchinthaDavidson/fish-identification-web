@@ -122,7 +122,7 @@ export default function Home() {
                 className="text-xl text-gray-600 leading-relaxed"
                 variants={heroItem}
               >
-                Advanced AI solution for accurate billfish and marine species identification, morphometric estimation, and illegal export prevention in Sri Lankan Fisheries.
+                A smart AI-powered system that detects and prevents eye diseases such as cataract, conjunctivitis, and uveitis through real-time image analysis, predictive analytics, and personalized eye-care recommendations.
               </motion.p>
               <motion.div className="flex gap-4" variants={heroItem}>
                 <button className="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
