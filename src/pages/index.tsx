@@ -6,6 +6,7 @@ import Fish from "../asset/fish.jpg";
 import Fish1 from "../asset/1.jpg";
 import Fish2 from "../asset/2.jpg";
 import Fish3 from "../asset/3.jpg";
+import Fish4 from "../asset/4.jpg";
 import Member1 from "../asset/team/1.jpg";
 import Member2 from "../asset/team/2.jpg";
 import Member3 from "../asset/team/3.jpg";
