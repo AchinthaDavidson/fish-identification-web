@@ -172,41 +172,40 @@ export default function Home() {
           </h2>
           <motion.div className="max-w-4xl mx-auto space-y-8 text-gray-600 leading-relaxed" variants={fadeInUp}>
             <p className="text-lg">
-              Sri Lanka, an island nation with a thriving marine ecosystem, places significant emphasis on its fisheries sector,
-              which accounts for over 32% of the country's total fish production. Among the large pelagic species, billfish—
-              including sailfish, marlins, and swordfish—play a crucial ecological and economic role.
+              In today’s digital era, the rapid increase in screen time has led to a significant rise in vision-related disorders worldwide. 
+              According to the World Health Organization (WHO), over 2.2 billion people globally experience some form of vision impairment, 
+              and nearly half of these cases are preventable through early detection and proper management. Prolonged exposure to digital devices, 
+              poor visual habits, and the lack of regular eye checkups have made proactive eye care more critical than ever.
             </p>
             <p className="text-lg">
-              However, accurately collecting biological data on these species presents a persistent challenge due to the nature of fishing operations.
-              In particular, the Indo-Pacific Sailfish (Istiophorus platypterus) is often cut into sections at sea before being
-              landed at ports, making direct length measurements difficult. This limitation significantly affects stock assessments,
-              which are essential for fisheries management and conservation efforts.
+              However, traditional diagnostic approaches rely heavily on specialized ophthalmic equipment and expert evaluations, 
+              creating barriers for people in rural or underserved areas. Moreover, most existing eye health solutions focus on detection alone, 
+              without offering preventive or recovery mechanisms. This gap emphasizes the need for an integrated, intelligent system capable of 
+              addressing the full spectrum of eye health—from early detection to personalized care and rehabilitation.
             </p>
             <p className="text-lg">
-              Previous research has attempted to address this issue by deriving morphometric relationships to estimate biological
-              parameters such as weight and length from partial fish measurements. However, the accuracy of these
-              generalized formulas has been questioned due to species-specific variations and environmental factors.
+              Recent advancements in Artificial Intelligence (AI) and Machine Learning (ML) have shown immense potential in automating disease detection 
+              and predicting health risks. Deep learning models, particularly Vision Transformers (ViTs) and YOLO-based architectures, 
+              have demonstrated superior accuracy in medical image classification and real-time analysis. These innovations open the path for accessible, 
+              cost-effective, and mobile-compatible eye health systems that can support both individuals and healthcare professionals.
             </p>
             <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100">
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Solution</h3>
               <p className="text-lg">
-                This study was conducted to fulfill a requirement set forth by the National Aquatic Resources Research and
-                Development Agency (NARA) to improve billfish data collection and species identification in Sri Lanka. The
-                proposed solution leverages machine learning and image processing techniques to address key challenges in fisheries
-                data collection.
+                This research presents an AI-driven mobile application designed to detect, prevent, and manage eye diseases using advanced computer vision 
+                and machine learning techniques. The proposed system integrates four intelligent modules — a Vision Transformer (ViT) for eye disease detection, 
+                YOLOv8 for eye health monitoring and personalized break scheduling, K-Means Clustering for predictive risk assessment, and a CNN + LSTM model for 
+                relaxation and recovery exercises.
               </p>
             </div>
             <p className="text-lg">
-              Two predictive models were developed: one for automatic billfish species identification from images and
-              another for predicting Lower Jaw Total Length (LJTL) from Pectoral Dorsal Length (PDL) measurements, specifically
-              tailored for Indo-Pacific Sailfish. The use of a localized dataset improves estimation accuracy compared to
-              generalized morphometric methods.
+              The mobile application allows users to capture or upload eye images and videos for real-time disease 
+              analysis and exercise evaluation. By leveraging Google Cloud Platform (GCP) and Firebase, the system ensures 
+              secure data handling, scalability, and real-time interaction between users and AI models.
             </p>
             <p className="text-lg">
-              The mobile application developed as part of this research serves as a practical field tool, offering real-time species
-              identification and size estimation through an intuitive interface. By integrating machine learning into fisheries
-              management, the system enhances both efficiency and accuracy in data collection, addressing the limitations of
-              manual measurement techniques.
+              Through this unified platform, users can monitor their eye health, receive personalized preventive recommendations, 
+              and perform guided relaxation exercises—making the system a comprehensive, accessible, and proactive solution for long-term visual wellness.
             </p>
           </motion.div>
         </div>
