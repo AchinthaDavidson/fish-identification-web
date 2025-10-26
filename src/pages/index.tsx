@@ -440,10 +440,10 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900">Main Objective</h3>
               </div>
               <p className="text-lg text-gray-700 leading-relaxed">
-                To design and develop a mobile-compatible AI-driven system for fish identification, size 
-                estimation, freshness assessment, and legality verification, using real-world images 
-                including partial or low-quality inputs aligned with Sri Lankan regulatory standards and 
-                conservation efforts.
+                To design and develop an AI-driven mobile application for early detection, prevention,
+                and management of eye diseases, integrating real-time image analysis, predictive risk assessment, 
+                and personalized relaxation guidance using models such as Vision Transformer (ViT), YOLOv8, K-Means Clustering, 
+                and CNN + LSTM. The system aims to promote accessible, proactive, and data-driven eye health monitoring for users.
               </p>
             </div>
 
@@ -546,7 +546,7 @@ export default function Home() {
               <p className="text-lg text-gray-700 leading-relaxed">
                 The software solution integrates advanced machine learning and computer vision techniques to support 
                 real-time eye disease detection, risk prediction, and personalized recovery guidance. Designed for use by individuals 
-                and healthcare professionals, the system enhances the accuracy, accessibility, and efficiency of eye health management and prevention
+                and healthcare professionals, the system enhances the accuracy, accessibility, and efficiency of eye health management and prevention.
               </p>
             </div>
 
@@ -600,10 +600,10 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Billfish Size Estimation</h4>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Eye Disease Detection</h4>
                       <p className="text-gray-600">
-                        Utilizes linear regression based on pre-dorsal length measurements to accurately estimate 
-                        total fish length, crucial for monitoring quotas and enforcing regulations.
+                        Utilizes the Vision Transformer (ViT) model to accurately detect common eye diseases such as cataract, 
+                        conjunctivitis, and uveitis from ocular images, ensuring early and precise diagnosis.
                       </p>
                     </div>
                   </div>
@@ -617,11 +617,10 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Species Identification</h4>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Eye Health Monitoring and Predictive Risk Assessment</h4>
                       <p className="text-gray-600">
-                        Implements YOLOv8 for billfish and demersal fish identification, combined with CNN-based 
-                        similarity learning for shark species recognition, ensuring accurate classification even 
-                        with partial images.
+                        Implements YOLOv8 to identify eye redness and monitor screen usage patterns, providing personalized break reminders.
+                        Employs K-Means Clustering to classify users into high, medium, and low-risk categories, enabling tailored preventive recommendations.
                       </p>
                     </div>
                   </div>
@@ -635,10 +634,10 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Quality Assessment</h4>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">Relaxation & Recovery System</h4>
                       <p className="text-gray-600">
-                        Employs advanced image processing techniques to analyze visual cues such as texture and color, 
-                        providing real-time assessment of fish quality and freshness.
+                        Uses a CNN + LSTM architecture to analyze recorded eye exercise videos, determine execution accuracy, 
+                        and offer guided relaxation practices to support effective recovery and long-term eye wellness.
                       </p>
                     </div>
                   </div>
@@ -782,7 +781,7 @@ export default function Home() {
                 <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Jun</div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Research Paper <span className="text-sm text-gray-500">(June 2025)</span></h3>
-                  <p className="text-gray-700 mb-2">Research paper based on the Project completed</p>
+                  <p className="text-gray-700 mb-2">Research paper based on the Project completed.</p>
                   <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 10</span>
                 </div>
               </li>
