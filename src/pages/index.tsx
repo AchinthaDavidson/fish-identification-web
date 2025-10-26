@@ -6,10 +6,10 @@ import Fish from "../asset/fish.jpg";
 import Fish1 from "../asset/1.jpg";
 import Fish2 from "../asset/2.jpg";
 import Fish3 from "../asset/3.jpg";
-import Member1 from "../asset/team/1.png";
-import Member2 from "../asset/team/2.png";
+import Member1 from "../asset/team/1.jpg";
+import Member2 from "../asset/team/2.jpg";
 import Member3 from "../asset/team/3.jpg";
-import Member4 from "../asset/team/4.png";
+import Member4 from "../asset/team/4.jpg";
 
 const geist = Geist({ subsets: ["latin"] });
 
@@ -700,15 +700,15 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Proposal Presentation - July 2024</span>
-                  <a href="https://docs.google.com/presentation/d/186bD6oj7hn_3OzhLVCOdCvm5mmEYL1z2/edit?usp=sharing&ouid=101582629438980516219&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://docs.google.com/presentation/d/1ecedgqHP9JzOzTcOWn2IFCuiV_-qjRuv/edit?usp=sharing&ouid=115657121645590227400&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Progress Presentation I - December 2024</span>
-                  <a href="https://docs.google.com/presentation/d/186bD6oj7hn_3OzhLVCOdCvm5mmEYL1z2/edit?usp=sharing&ouid=101582629438980516219&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://docs.google.com/presentation/d/1iMY0gXHwLl_wgg0xdm_ZwkyxXZOZCACQ/edit?usp=drive_link&ouid=115657121645590227400&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Progress Presentation II - March 2025</span>
-                  <a href="https://docs.google.com/presentation/d/1lwENaEAvyEjqQPmjrZ85zsfxAxGeWzdL/edit?usp=sharing&ouid=101582629438980516219&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://docs.google.com/presentation/d/12HhzRhFi-L4bRXZPwsMQnq5w4shEc-od/edit?usp=drive_link&ouid=115657121645590227400&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Final Presentation - May 2025</span>
@@ -722,11 +722,11 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Topic Assessment - May 2024</span>
-                  <a href="https://drive.google.com/file/d/1TFLRVOA9Czi67GOre9ET-2X0wCwadWo_/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://drive.google.com/file/d/113dX7Y9tTyryJMmTLHAWzTVJZsHWAxPR/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Project Proposal - August 2024</span>
-                  <a href="https://drive.google.com/drive/folders/1y11LRGRxpABt4tQnSbyEqkWpinR1lD3P?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://drive.google.com/drive/folders/1TuM8L8GnKCOGpNW_2XFjaFx5kNH9p_4N?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Deployment Report - May 2025</span>
@@ -734,15 +734,15 @@ export default function Home() {
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Research Paper - March 2025</span>
-                  <a href="https://drive.google.com/file/d/1rXAefk-qZvJ9Ms9qYhqm5kjeuwqks-rQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://drive.google.com/file/d/1nA-1QXZYM2PknAYTH7RQ8ydd42R8bTJU/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Final Report - April 2025</span>
-                  <a href="https://drive.google.com/drive/folders/1rIIOBaCVv7ecjwE-4Niki17mQM3LKcfb?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://drive.google.com/drive/folders/1RsWoANqX1SP4Xx8m1H-cLbbaW-TFrJkU?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
                   <span>Poster - May 2025</span>
-                  <a href="https://drive.google.com/file/d/1QVZcxzmaxVzJoha5MpXTuDnZWkK9pFQJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <a href="https://drive.google.com/file/d/1j1u_ii9Uj-2m8LE0NOSA2N4xNE1Qishc/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
               </ul>
             </div>
