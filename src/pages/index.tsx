@@ -970,9 +970,9 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Fish Identification</h3>
+              <h3 className="text-xl font-bold mb-4">Eye Care</h3>
               <p className="text-gray-400">
-                Advanced AI-powered solution for accurate fish species identification
+                Advanced AI-powered solution for accurate eye disease detection and diagnosis.
               </p>
             </div>
             <div>
@@ -987,14 +987,14 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-bold mb-4">Contact Info</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>Email: contact@fishid.com</li>
+                <li>Email: contact@eyeid.com</li>
                 <li>Phone: +1 234 567 890</li>
-                <li>Address: 123 Fish Street, Ocean City</li>
+                <li>Address: 67/2, Gamunupura 1st Lane, Kaduwela.</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Fish Identification System. All rights reserved.</p>
+            <p>&copy; 2025 Eye Care System. All rights reserved.</p>
           </div>
         </div>
       </motion.footer>
