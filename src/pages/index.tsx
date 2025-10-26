@@ -767,67 +767,67 @@ export default function Home() {
           <div className="max-w-3xl mx-auto">
             <ol className="relative border-l-4 border-blue-200 space-y-12">
               <li className="ml-8">
-                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Jul</div>
+                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Dec</div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Project Proposal <span className="text-sm text-gray-500">(July 2024)</span></h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Project Proposal <span className="text-sm text-gray-500">(December 2024)</span></h3>
                   <p className="text-gray-700 mb-2">A Project Proposal is presented to potential sponsors/clients to receive funding and to get the project approved.</p>
                   <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 6</span>
                 </div>
               </li>
               <li className="ml-8">
-                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Dec</div>
-                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Progress Presentation I <span className="text-sm text-gray-500">(December 2024)</span></h3>
-                  <p className="text-gray-700 mb-2">Progress Presentation I reviews the 50% completetion status of the project.</p>
-                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 6</span>
-                </div>
-              </li>
-              <li className="ml-8">
-                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Mar</div>
-                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Research Paper <span className="text-sm text-gray-500">(March 2025)</span></h3>
-                  <p className="text-gray-700 mb-2">Research paper based on the Project completed</p>
-                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 10</span>
-                </div>
-              </li>
-              <li className="ml-8">
-                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Mar</div>
-                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Progress Presentation II <span className="text-sm text-gray-500">(March 2025)</span></h3>
-                  <p className="text-gray-700 mb-2">Progress Presentation II reviews the 90% completetion status demonstration of the project.</p>
-                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 18</span>
-                </div>
-              </li>
-              <li className="ml-8">
                 <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Apr</div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Final Report <span className="text-sm text-gray-500">(April 2025)</span></h3>
-                  <p className="text-gray-700 mb-2">Individual and group reports containing details of the completed project</p>
-                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 19</span>
-                </div>
-              </li>
-              <li className="ml-8">
-                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">May</div>
-                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Website Assessment <span className="text-sm text-gray-500">(May 2025)</span></h3>
-                  <p className="text-gray-700 mb-2">Website to promote the research project as a whole and give related information.</p>
-                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 2</span>
-                </div>
-              </li>
-              <li className="ml-8">
-                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">May</div>
-                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Final Presentation & Viva <span className="text-sm text-gray-500">(May 2025)</span></h3>
-                  <p className="text-gray-700 mb-2">Final presentation and viva is held to assess each member individually.</p>
-                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 20</span>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Progress Presentation 1 <span className="text-sm text-gray-500">(April 2025)</span></h3>
+                  <p className="text-gray-700 mb-2">Progress Presentation I reviews the 50% completetion status of the project.</p>
+                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 15</span>
                 </div>
               </li>
               <li className="ml-8">
                 <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Jun</div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Logbook <span className="text-sm text-gray-500">(June 2025)</span></h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Research Paper <span className="text-sm text-gray-500">(June 2025)</span></h3>
+                  <p className="text-gray-700 mb-2">Research paper based on the Project completed</p>
+                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 10</span>
+                </div>
+              </li>
+              <li className="ml-8">
+                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Aug</div>
+                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Final Report <span className="text-sm text-gray-500">(August 2025)</span></h3>
+                  <p className="text-gray-700 mb-2">Individual and group reports containing details of the completed project</p>
+                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 19</span>
+                </div>
+              </li>
+              <li className="ml-8">
+                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Sep</div>
+                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Progress Presentation 2 <span className="text-sm text-gray-500">(September 2025)</span></h3>
+                  <p className="text-gray-700 mb-2">Progress Presentation II reviews the 90% completetion status demonstration of the project.</p>
+                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 18</span>
+                </div>
+              </li>
+              <li className="ml-8">
+                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Oct</div>
+                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Final Presentation & Viva <span className="text-sm text-gray-500">(October 2025)</span></h3>
+                  <p className="text-gray-700 mb-2">Final presentation and viva is held to assess each member individually.</p>
+                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 20</span>
+                </div>
+              </li>
+              <li className="ml-8">
+                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Oct</div>
+                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Website Assessment <span className="text-sm text-gray-500">(October 2025)</span></h3>
+                  <p className="text-gray-700 mb-2">Website to promote the research project as a whole and give related information.</p>
+                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 2</span>
+                </div>
+              </li>
+              <li className="ml-8">
+                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Oct</div>
+                <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Logbook <span className="text-sm text-gray-500">(October 2025)</span></h3>
                   <p className="text-gray-700 mb-2">Project status and completion.</p>
-                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 3</span>
+                  <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 2</span>
                 </div>
               </li>
             </ol>
@@ -851,15 +851,15 @@ export default function Home() {
             <motion.div className="p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100" variants={fadeInUp} whileHover={{ scale: 1.04 }}>
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Mission</h3>
               <p className="text-gray-600 leading-relaxed">
-                To develop an advanced fish identification system that helps researchers, 
-                marine biologists, and enthusiasts accurately identify and study fish species.
+                To promote early diagnosis, encourage healthy digital habits, and provide personalized
+                care recommendations to reduce preventable vision problems and enhance overall eye wellness.
               </p>
             </motion.div>
             <motion.div className="p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100" variants={fadeInUp} whileHover={{ scale: 1.04 }}>
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Our Vision</h3>
               <p className="text-gray-600 leading-relaxed">
-                To become the leading platform for fish species identification and 
-                contribute to marine life conservation through technology.
+                To become a leading innovation in digital eye health, combining artificial intelligence and 
+                healthcare technology to make early eye disease detection and prevention accessible to everyone.
               </p>
             </motion.div>
           </div>
@@ -882,19 +882,19 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 max-w-5xl mx-auto">
             <div className="flex flex-col items-center">
               <Image src={Member1} alt="Member 1" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Imandi Aluthge</h4>
+              <h4 className="text-xl font-semibold text-gray-900">Shehan Senevirathne</h4>
             </div>
             <div className="flex flex-col items-center">
               <Image src={Member2} alt="Member 2" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Ashvini Wegodapola</h4>
+              <h4 className="text-xl font-semibold text-gray-900">Gayashan Fernando</h4>
             </div>
             <div className="flex flex-col items-center">
               <Image src={Member3} alt="Member 3" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Achintha Wijethunga</h4>
+              <h4 className="text-xl font-semibold text-gray-900">Mewantha Shehan</h4>
             </div>
             <div className="flex flex-col items-center">
               <Image src={Member4} alt="Member 4" width={160} height={160} className="object-cover rounded-2xl shadow-lg mb-4 border-4 border-blue-100" />
-              <h4 className="text-xl font-semibold text-gray-900">Chalith Bandara</h4>
+              <h4 className="text-xl font-semibold text-gray-900">Theekshana Shehan</h4>
             </div>
           </div>
         </div>
