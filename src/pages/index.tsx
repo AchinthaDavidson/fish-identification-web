@@ -64,7 +64,7 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-              Billfish Identification
+              Eye Care 
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">Home</a>
@@ -112,10 +112,10 @@ export default function Home() {
                 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight"
                 variants={heroItem}
               >
-                AI-Driven System for{" "}
+                An AI – Driven Approach for {" "}
                 <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                  Marine Species Identification and
-                  Illegal Export Prevention in Sri Lanka
+                  The Detection and Prevention
+                  of Eye Diseases
                 </span>
               </motion.h1>
               <motion.p
