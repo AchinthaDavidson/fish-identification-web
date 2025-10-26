@@ -700,20 +700,20 @@ export default function Home() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Presentations</h3>
               <ul className="space-y-4">
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Proposal Presentation - July 2024</span>
+                  <span>Proposal Presentation - January 2025</span>
                   <a href="https://docs.google.com/presentation/d/1ecedgqHP9JzOzTcOWn2IFCuiV_-qjRuv/edit?usp=sharing&ouid=115657121645590227400&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Progress Presentation I - December 2024</span>
+                  <span>Progress Presentation 1 - April 2025</span>
                   <a href="https://docs.google.com/presentation/d/1iMY0gXHwLl_wgg0xdm_ZwkyxXZOZCACQ/edit?usp=drive_link&ouid=115657121645590227400&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Progress Presentation II - March 2025</span>
+                  <span>Progress Presentation 2 - September 2025</span>
                   <a href="https://docs.google.com/presentation/d/12HhzRhFi-L4bRXZPwsMQnq5w4shEc-od/edit?usp=drive_link&ouid=115657121645590227400&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Final Presentation - May 2025</span>
-                  <a href="https://docs.google.com/presentation/d/1s3_1NN43EvCRjXoJMMyYi78vkiLLU6H5/edit?usp=drive_link&ouid=101582629438980516219&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
+                  <span>Final Presentation - October 2025</span>
+                  <a href="https://docs.google.com/presentation/d/1Id88a9yTts-cTcTwMdqNptGFiidu0AHW/edit?usp=drive_link&ouid=115657121645590227400&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
               </ul>
             </div>
@@ -722,27 +722,23 @@ export default function Home() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Documents</h3>
               <ul className="space-y-4">
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Topic Assessment - May 2024</span>
+                  <span>Topic Assessment - December 2024</span>
                   <a href="https://drive.google.com/file/d/113dX7Y9tTyryJMmTLHAWzTVJZsHWAxPR/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Project Proposal - August 2024</span>
+                  <span>Project Proposal - January 2025</span>
                   <a href="https://drive.google.com/drive/folders/1TuM8L8GnKCOGpNW_2XFjaFx5kNH9p_4N?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Deployment Report - May 2025</span>
-                  <a href="https://drive.google.com/file/d/1IZx9wtM2vII_KijvtxQIEFzp3Xzdbinz/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
-                </li>
-                <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Research Paper - March 2025</span>
+                  <span>Research Paper - June 2025</span>
                   <a href="https://drive.google.com/file/d/1nA-1QXZYM2PknAYTH7RQ8ydd42R8bTJU/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Final Report - April 2025</span>
+                  <span>Final Report - August 2025</span>
                   <a href="https://drive.google.com/drive/folders/1RsWoANqX1SP4Xx8m1H-cLbbaW-TFrJkU?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
                 <li className="flex items-center justify-between bg-blue-50 p-4 rounded-xl border border-blue-100">
-                  <span>Poster - May 2025</span>
+                  <span>Poster - September 2025</span>
                   <a href="https://drive.google.com/file/d/1j1u_ii9Uj-2m8LE0NOSA2N4xNE1Qishc/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline">View</a>
                 </li>
               </ul>
@@ -767,9 +763,9 @@ export default function Home() {
           <div className="max-w-3xl mx-auto">
             <ol className="relative border-l-4 border-blue-200 space-y-12">
               <li className="ml-8">
-                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Dec</div>
+                <div className="absolute -left-5 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">Jan</div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Project Proposal <span className="text-sm text-gray-500">(December 2024)</span></h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Project Proposal <span className="text-sm text-gray-500">(January 2025)</span></h3>
                   <p className="text-gray-700 mb-2">A Project Proposal is presented to potential sponsors/clients to receive funding and to get the project approved.</p>
                   <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Marks Allocated: 6</span>
                 </div>
