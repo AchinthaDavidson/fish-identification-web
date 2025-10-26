@@ -540,13 +540,13 @@ export default function Home() {
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border border-blue-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">System Overview</h3>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                The mobile application developed for this research offers five main features: Billfish Size Estimation, 
-                Billfish Identification, Demersal Fish Identification, Shark Species Identification, and Fish Quality Assessment.
+                The mobile application developed for this research offers four main features: Eye Disease Detection,
+                Eye Health Monitoring, Predictive Risk Assessment, and Relaxation & Recovery System.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                The software solution combines advanced machine learning techniques with a mobile application to support 
-                fish species identification, size estimation, and quality assessment. Designed for use by field officers 
-                and research institutions, the system enhances the accuracy and efficiency of fish trade management in Sri Lanka.
+                The software solution integrates advanced machine learning and computer vision techniques to support 
+                real-time eye disease detection, risk prediction, and personalized recovery guidance. Designed for use by individuals 
+                and healthcare professionals, the system enhances the accuracy, accessibility, and efficiency of eye health management and prevention
               </p>
             </div>
 
@@ -580,9 +580,9 @@ export default function Home() {
                     <h4 className="text-xl font-semibold text-gray-900">Mobile Application</h4>
                   </div>
                   <p className="text-gray-700">
-                    Built with React Native and the Expo framework, the mobile app allows users to capture or upload images, 
-                    input relevant measurements, and receive real-time predictions. Axios handles communication between the 
-                    frontend and the backend APIs hosted on GCP.
+                    Built with Java and integrated with Firebase and Google Cloud Platform (GCP), the mobile app enables users to capture or upload eye images
+                    and exercise videos for real-time disease detection and performance evaluation. It provides personalized break reminders, risk assessment results,
+                    and guided relaxation exercises, ensuring a complete and accessible solution for eye health management.
                   </p>
                 </div>
               </div>
